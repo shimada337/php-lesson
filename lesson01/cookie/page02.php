@@ -7,6 +7,7 @@
   <title>page02</title>
 </head>
 <body>
-  変数の値：<?php echo $value; ?>
+  変数の値：<?php echo $value; ?><br>
+  Cookieの値： <?php echo $_COOKIE['message']; ?>
 </body>
 </html>
